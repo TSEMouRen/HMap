@@ -7,7 +7,8 @@
     controls: {
       zoomSlider: false,
       zoom: false,
-      rotate: false
+      rotate: false,
+      overviewMap: true
     },
     view: {
       center: [12118909.300259633, 4086043.1061670054],
@@ -22,12 +23,6 @@
       }
     ]
   });
-
-  var controlScaleLine = new ol.control.ScaleLineH({
-    minWidth: 64,
-    units: 'metric_cn'
-  })
-  Map.addControl(controlScaleLine)
 ```
 
 * ol.control.ScaleLineH 配置项说明

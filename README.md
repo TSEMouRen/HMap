@@ -1,3 +1,5 @@
+# note:
+ - nvm use v12
 # HMap  |  基于openlayers的封装组件
 
 [![Build Status](https://travis-ci.org/sakitam-fdd/HMap.svg?branch=master)](https://www.travis-ci.org/sakitam-fdd/HMap)

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>loading</title>
+  <title>加载控件loading</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="../../dist/hmap.css" type="text/css">
   <style type="text/css">
@@ -35,9 +35,10 @@
       }
     ]
   });
+  // 手动添加
   var olControlLoading = new ol.control.Loading({
     className: 'hmap-loading-panel',
-    widget: 'animatedGif'
+    widget: 'animatedGif'   //progressBar animatedGif
   })
   Map.addControl(olControlLoading)
 </script>

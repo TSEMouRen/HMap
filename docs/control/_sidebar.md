@@ -16,8 +16,9 @@
   - [2.9、版权控件](/control/attribution.md)
   - [2.10、比例尺控件](/control/scaleLine.md)
   - [2.11、鼠标位置显示控件](/control/mousePosition.md)
-  - [2.12、定位控件](/control/geolocation.md)
+  - [2.12、定位控件（停用）](/control/geolocation.md)
   - [2.13、鹰眼控件](/control/overviewMap.md)
+  - [2.14、图层切换控件](/control/layerSwitcher.md)
 - 3、交互
   - [3.1、交互基类](/interaction/interaction.md)
   - [3.2、Alt-Shift拖动旋转视图](/interaction/dragRotate.md)

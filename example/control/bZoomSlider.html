@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>bZoomSlider</title>
+  <title>平移缩放控件bZoomSlider</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="../../dist/hmap.css" type="text/css">
   <style type="text/css">
@@ -21,7 +21,9 @@
   // 两种方式开启
   var Map = new HMap('map', {
     controls: {
-      zoomSlider: false
+      zoomSlider: false,
+      zoom: false,  //右下角
+      rotate: false //右下角
     },
     view: {
       center: [12118909.300259633, 4086043.1061670054],
@@ -36,7 +38,7 @@
       }
     ]
   });
-
+  // 手动添加, 出现在左上角
   var olControlZoomSlider = new ol.control.BZoomSlider()
   Map.addControl(olControlZoomSlider)
 </script>
